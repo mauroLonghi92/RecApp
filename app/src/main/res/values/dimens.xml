@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_start">20dp</dimen>
+    <dimen name="button_text_size">18sp</dimen>
+    <dimen name="textView_text_size">18sp</dimen>
+    <dimen name="distance_button">15dp</dimen>
+    <dimen name="distance_logo">50dp</dimen>
+    <dimen name="button_plus_width">100dp</dimen>
+    <dimen name="button_login_margin_top">25dp</dimen>
+
+</resources>

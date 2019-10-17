@@ -1,0 +1,76 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="style_TextView">
+        <!-- Customize your theme here. -->
+        <item name="android:textColor">#63a4ff</item>
+        <item name="android:textSize">22sp</item>
+    </style>
+    <style name="style_btn">
+        <item name="android:textColor">@color/colorBlanco</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/button_format</item>
+    </style>
+    <style name="style_btn_plus">
+        <item name="android:textColor">@color/colorBlanco</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/value_suma</item>
+        <item name="android:background">@drawable/button_format</item>
+    </style>
+    <style name="style_btn_minus">
+        <item name="android:textColor">@color/colorFondoButtonNav</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:text">@string/value_resta</item>
+        <item name="android:background">@drawable/gradient_button_minus</item>
+    </style>
+    <style name="style_cuadrado">
+        <item name="android:topLeftRadius">50dp</item>
+        <item name="android:topRightRadius">22dp</item>
+        <item name="android:bottomLeftRadius">22dp</item>
+        <item name="android:bottomRightRadius">22dp</item>
+    </style>
+    <style name="ButtonMenu" parent="Theme.AppCompat.Light">
+        <item name="android:layout_marginBottom">@dimen/distance_button</item>
+        <item name="android:layout_marginStart" >@dimen/margin_start</item>
+        <item name="android:layout_marginEnd" >@dimen/margin_start</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+    </style>
+    <style name="CommonHintColor" >
+        <item name="colorControlNormal">@color/cursor_gray</item>
+        <item name="colorControlActivated">@color/cursor_gray</item>
+        <item name="android:textColorHighlight">@color/cursor_gray</item>
+    </style>
+    <style name="LoginButton">
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="cornerRadius">@dimen/button_login_radius</item>
+        <item name="android:fontFamily">@font/adventure_invisible</item>
+        <item name="android:textColor">@color/colorBlanco</item>
+        <item name="android:textSize">@dimen/typeface_login_text_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_marginStart">@dimen/login_button_margin_left_right</item>
+        <item name="android:layout_marginEnd">@dimen/login_button_margin_left_right</item>
+        <item name="android:backgroundTint">@color/colorButtonSignUp</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
+    <dimen name="button_login_radius">25dp</dimen>
+    <dimen name="typeface_login_text_size">25sp</dimen>
+    <dimen name="button_login_width">30dp</dimen>
+    <dimen name="button_login_height">15dp</dimen>
+    <dimen name="login_button_margin_left_right">35dp</dimen>
+</resources>

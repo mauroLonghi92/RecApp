@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#368539</color>
+    <color name="colorFondoButtonNav">#009fbd</color>
+    <color name="colorHint">#ffffff</color>
+    <color name="colorButton">#002171</color>
+    <color name="colorBlanco">#ffffff</color>
+    <color name="colorButtonSignUp">#368539</color>
+    <color name="cursor_gray">#368539</color>
+    <color name="title">#524AC3</color>
+</resources>

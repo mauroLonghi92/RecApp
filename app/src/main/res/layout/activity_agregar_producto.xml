@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient_background"
+    tools:context=".AgregarProducto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/myriad_pro_bold"
+            android:text="@string/title_agregar_producto"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                style="@style/style_TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/myriad_pro_bold"
+                android:textColor="@color/colorBlanco"
+                android:text="@string/tv_RegTons" />
+
+            <EditText
+                android:id="@+id/campoTons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="@dimen/button_plus_width"
+                android:layout_height="wrap_content"
+                style="@style/style_btn_plus"/>
+
+            <Button
+                android:layout_width="@dimen/button_plus_width"
+                android:layout_height="wrap_content"
+                style="@style/style_btn_minus"/>
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                style="@style/style_TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/myriad_pro_bold"
+                android:textColor="@color/colorBlanco"
+                android:text="@string/tv_bottles_RegReciclaje" />
+
+            <EditText
+                android:id="@+id/campoBottles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="@dimen/button_plus_width"
+                android:layout_height="wrap_content"
+                style="@style/style_btn_plus"/>
+
+            <Button
+                android:layout_width="@dimen/button_plus_width"
+                android:layout_height="wrap_content"
+                style="@style/style_btn_minus"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                style="@style/style_TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/myriad_pro_bold"
+                android:textColor="@color/colorBlanco"
+                android:text="Tetrabriks" />
+
+            <EditText
+                android:id="@+id/campoTetrabriks"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="@dimen/button_plus_width"
+                android:layout_height="wrap_content"
+                style="@style/style_btn_plus"/>
+
+            <Button
+                android:layout_width="@dimen/button_plus_width"
+                android:layout_height="wrap_content"
+                style="@style/style_btn_minus"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                style="@style/style_TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/myriad_pro_bold"
+                android:textColor="@color/colorBlanco"
+                android:text="Glass" />
+
+            <EditText
+                android:id="@+id/campoGlass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="@dimen/button_plus_width"
+                android:layout_height="wrap_content"
+                style="@style/style_btn_plus"/>
+
+            <Button
+                android:layout_width="@dimen/button_plus_width"
+                android:layout_height="wrap_content"
+                style="@style/style_btn_minus"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                style="@style/style_TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/myriad_pro_bold"
+                android:textColor="@color/colorBlanco"
+                android:text="PapperBoard" />
+
+            <EditText
+                android:id="@+id/campoPapperBoard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="@dimen/button_plus_width"
+                android:layout_height="wrap_content"
+                style="@style/style_btn_plus"/>
+
+            <Button
+                android:layout_width="@dimen/button_plus_width"
+                android:layout_height="wrap_content"
+                style="@style/style_btn_minus"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                style="@style/style_TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/myriad_pro_bold"
+                android:textColor="@color/colorBlanco"
+                android:text="Cans" />
+
+            <EditText
+                android:id="@+id/campoCans"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <Button
+                android:layout_width="@dimen/button_plus_width"
+                android:layout_height="wrap_content"
+                style="@style/style_btn_plus"/>
+
+            <Button
+                android:layout_width="@dimen/button_plus_width"
+                android:layout_height="wrap_content"
+                style="@style/style_btn_minus"/>
+        </TableRow>
+
+        <Button
+            android:id="@+id/BtnRegistrarReciclaje"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:text="@string/button_registrar"
+            style="@style/style_btn"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

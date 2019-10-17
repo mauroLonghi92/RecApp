@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">RecicladoApp</string>
+    <string name="ip_hosting"> 192.168.1.56:8080</string>
+
+    <string name="pnto_limpio_tandil"> https://punto-limpio.info</string>
+
+
+    <string name="btn_registrarReciclaje">Registrar Reciclaje</string>
+    <string name="btn_registrarUsuario">Registrar Usuario</string>
+    <string name="tv_bottles_RegReciclaje">Bottles</string>
+    <string name="tv_RegTons">Tons</string>
+    <string name="title_agregar_producto">Hoy que reciclo ?</string>
+    <string name="value_suma">+</string>
+    <string name="value_resta">-</string>
+    <string name="button_registrar">Registrar</string>
+    <string name="firstname_text">FirstName</string>
+    <string name="lastname_text">LastName</string>
+    <string name="username_text">Username</string>
+    <string name="password">Password</string>
+    <string name="refresh_button">Refresh</string>
+    <string name="aceptar_button">Aceptar</string>
+    <string name="datos_personales">Datos Personales</string>
+    <string name="login_action_login">Entrar</string>
+    <string name="Open">open</string>
+    <string name="Close">close</string>
+</resources>
